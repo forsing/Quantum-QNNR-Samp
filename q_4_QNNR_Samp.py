@@ -19,8 +19,8 @@ np.random.seed(SEED)
 random.seed(SEED)
 algorithm_globals.random_seed = SEED
  
-CSV_DRAWN = "/Users/4c/Desktop/GHQ/data/loto7hh_4582_k22.csv"
-CSV_ALL   = "/Users/4c/Desktop/GHQ/data/kombinacijeH_39C7.csv"
+CSV_DRAWN = "/data/loto7hh_4582_k22.csv"
+CSV_ALL   = "/data/kombinacijeH_39C7.csv"
 
 MIN_VAL = [1, 2, 3, 4, 5, 6, 7]
 MAX_VAL = [33, 34, 35, 36, 37, 38, 39]
@@ -178,7 +178,7 @@ Graf svih kombinacija: /Users/4c/Desktop/GHQ/data/kombinacijeH_39C7.csv
 
 ==================================================
 Predikcija (QNNR-Sampler, deterministicki, seed=39):
-[4, 31, 32, 33, 34, 35, 36]
+[4, 31, x, y, z, 35, 36]
 ==================================================
 """
 
